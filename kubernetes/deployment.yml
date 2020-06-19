@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: Board
-          image: username/Board:latest
+          image: 271153858532.dkr.ecr.ap-northeast-2.amazonaws.com/admin12-board:latest
           ports:
             - containerPort: 8080
           readinessProbe:
